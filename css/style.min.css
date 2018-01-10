@@ -14,14 +14,15 @@ body a {
 	text-decoration: none;
 }
 h1, h2 {
-	display: block;
 	margin:0;
-	padding: 15px 0;
 	text-align: center;
-	color:#0e0e0e;
+	color:	#8B4513	;
 	font-family: Raleway, Arial;
-	font-size: 22px;
-	font-weight: 600;
+}
+h1 {	
+	text-transform: uppercase;
+	font-size: 36px;
+	font-weight: 400;
 }
 footer {
 	margin:0 auto;
@@ -216,29 +217,45 @@ position: relative;
 
 .row{
 	display:flex;
-}
-.name {
+	justify-content: center;
+	text-align: center;
 	
 }
-.name, .discript{
-	border: solid 1px silver;
-}
-.name{
-	align-items: center;
-	flex:1;
-	 
-	display: flex;
-	align-items: center;
-	align-content: center;
-	justify-content: center;
-}
-
-.discript{
-	flex:6;
-	display: block;
-	background: #f4f4f4;
-	padding: 10px;
+	.fa-arrow-right{
+		color:#F5DEB3;	
 	}
+
+	.wallet a, 
+	.earn a,
+	.withdraw a{
+		color: #F4A460;
+	}
+
+	.wallet a:hover,
+	.earn a:hover,
+	.withdraw a:hover{
+		color:#800000;
+		text-shadow: 2px 2px 8px #800000;
+	}
+
+	.name, .discript{
+		border: solid 1px silver;
+	}
+	.name{
+		align-items: center;
+		flex:1;
+		display: flex;
+		align-items: center;
+		align-content: center;
+		justify-content: center;
+	}
+
+	.discript{
+		flex:6;
+		display: block;
+		background: #f4f4f4;
+		padding: 10px;
+		}
 
 .tab-hide{
 	opacity: 0;
@@ -265,6 +282,20 @@ position: relative;
 	width:auto;
 	border: none;
 }
+.arrow {
+	display: none;
+}
 
 }
 
+.fa-5x {
+	display: block;
+	margin: 25px 15px;
+
+}
+.fa-5x h3{
+	text-transform: uppercase;
+	font-size: 18px;
+	margin:5px 0 0 0;
+
+}
